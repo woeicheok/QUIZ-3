@@ -21,11 +21,17 @@ Questions:
 • Change the declaration of the instance variable age of Animal to a class variable using static, in this way:
 public static int age;
 • What is the result of the output now? Why?
-  ANS: It is same as the previous output. Although it will get warning from the compiler.
+  ANS: Meow. I am a cat. My name is null
+       and I am 3 years old.
+       Woof. I am a dog. My name is null
+       and I am 3 years old.
   
 • It may happen that you get warnings from the compiler that you should access the variable age via Animal.age, but it should be possible to run the program anyway. Otherwise, change the references to age into Animal.age.
 • Where is the value of an instance variable stored?
-  ANS: 
+  ANS: The value of an instance variable stored at the class which defining it.
+  
 • Where is the value of a class variable stored?
-  ANS: The value of an instance variable stored at the memory
+  ANS: The value of an class variable stored inside the class memory itself 
+  
 • What refers the variable this to?
+  ANS: this can be used to refer current class instance variable.
